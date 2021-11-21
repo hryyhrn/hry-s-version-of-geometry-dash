@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles/styleHacker.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    </head>
+    <body onload="init()">
+         <!--BUTTONS-->
+         <div id="buttons">
+            <button onclick="reset()">RESET</button>
+            <br>
+            <button onclick="location.href='../index.html'">MAIN MENU</button>
+            <br>
+        </div>
+        
+        <!--da CANVAS-->
+        <canvas id="canvas" width="800px" height="500px">Your browser doesn't support canvas</canvas>
+        
+        <!--END SCREEN-->
+        <div id="cover">
+            <div>( ✖╭╮✖ )</div>
+            <br>
+            <div id="result"></div>
+            <button onclick="reset()">PLAY AGAIN</button>
+            <button onclick="location.href='../index.html'">MAIN MENU</button>
+            <button onclick="highscore()">LEADERBOARD</button>
+        </div>
+
+        <!--HIGH SCORE-->
+        <div id="highscore">
+            <div>HIGH SCORE (⌐▨_▨)</div>
+            <br>
+            <div id="resultH"></div>
+            <div>ENTER NAME:</div>
+            <input type="text" id="name">
+            <button onclick="submit()">SUBMIT</button>
+            <br>
+            <button onclick="reset()">PLAY AGAIN</button>
+            <button onclick="location.href='../index.html'">MAIN MENU</button>
+        </div>
+
+        <!--The leaderboard popup-->
+        <div id="scoreboard">
+            <div id="score">
+              <span id="close">&times;</span>
+              <p>LEADERBOARD</p>
+              <p id="text"></p>
+            </div>
+        </div>
+    </body>
+    <script src="../scripts/scriptHacker.js"></script>
+</html>

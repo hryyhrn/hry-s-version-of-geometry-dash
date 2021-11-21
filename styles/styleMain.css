@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    cursor: default;
+    user-select: none;
+}
+
+body {
+    background-color: #222;
+}
+
+div {
+    padding: 34vmin;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 1vmin;
+    padding: 4vmin;
+    background-size: 200% auto;
+    font-family: 'VT323', monospace;
+    color: #222;
+    font-size: 15vmin;
+    border-radius: 1.5vmin;
+}
