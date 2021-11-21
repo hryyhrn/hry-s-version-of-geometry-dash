@@ -1,5 +1,5 @@
 &nbsp;  
-# PUZZLe1
+# Gravity Guy DESI
 
 ## Overview:
 A responsive front end 'Gravity Guy' like game using the CANVAS API.
