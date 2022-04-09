@@ -1,5 +1,5 @@
 &nbsp;  
-# [hry's version of geometry dash](https://hryyhrn.github.io/GravityGuyDesi/)
+# [hry's version of geometry dash](https://hryyhrn.github.io/hry-s-version-of-geometry-dash/)
 
 ## Overview:
 A responsive front end 'Gravity Guy' like game using the CANVAS API.
